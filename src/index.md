@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/home.html'
-title: 'Home'
+title: 'Verb'
 meta:
   desc:
     '11st-Starter-Kit is a minimal starting point for building static websites
@@ -14,7 +14,7 @@ intro:
     class="text-gray-900 font-medium underline">Vite</a> documentation.'
 ---
 
-## Community
+## The Verb App
 
 [Eleventy](https://www.11ty.dev/news/discord/) -
 [Vite](https://chat.vitejs.dev/) - [Tailwind
