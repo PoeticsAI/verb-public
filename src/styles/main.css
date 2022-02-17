@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  @apply px-6;
+}
+
+p {
+  @apply text-[14px] lg:text-lg;
+}
+
+h1 {
+  @apply mb-4 text-4xl lg:text-6xl;
+}
+
+h2 {
+  @apply mb-4 text-3xl font-extrabold lg:text-5xl;
+}
+
+h3 {
+  @apply mb-4 text-2xl font-bold lg:text-3xl;
+}
+
+h4 {
+  @apply mb-4 text-xl lg:text-2xl;
+}
+
+h5 {
+  @apply mb-4 text-base lg:text-xl;
+}
+
+h6 {
+  @apply mb-4 text-xs lg:text-sm;
+}
+
+ul {
+  @apply list-disc;
+}
+
+.btn {
+  @apply inline-block rounded bg-red-800 py-1.5 px-6 text-white transition-colors hover:bg-gray-400;
+}
+
+.btn-big {
+  @apply py-3;
+}
+
+.btn-long {
+  @apply px-16;
+}
+
+.input {
+  @apply relative;
+}
+
+.input textarea,
+.input input[type='text'],
+.input input[type='email'],
+.input input[type='password'] {
+  @apply rounded-[5px] border border-solid border-gray-400 p-3 pt-5 pb-1  placeholder-transparent outline-0;
+}
+
+.input textarea {
+  @apply h-32;
+}
+
+.input textarea + label,
+.input input[type='text'] + label,
+.input input[type='email'] + label,
+.input input[type='password'] + label {
+  @apply absolute left-3 top-[13px] z-10 cursor-text text-gray-400 transition-all;
+}
+
+.input textarea::placeholder .input input[type='text']::placeholder,
+.input input[type='email']::placeholder,
+.input input[type='password']::placeholder {
+  display: none;
+}
+
+.input textarea:focus + label,
+.input input[type='text']:focus + label,
+.input input[type='email']:focus + label,
+.input input[type='password']:focus + label,
+.input textarea:not(:placeholder-shown) + label,
+.input input[type='text']:not(:placeholder-shown) + label,
+.input input[type='email']:not(:placeholder-shown) + label,
+.input input[type='password']:not(:placeholder-shown) + label {
+  @apply absolute left-3 top-1.5 z-10 text-xs text-gray-400;
+}

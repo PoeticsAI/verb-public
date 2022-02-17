@@ -1,18 +1,11 @@
-<header>
-  <nav class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
+<header class="container mx-auto px-4">
+  <nav class="">
     <div class="flex h-16 items-center justify-between">
-      <figure class="flex flex-shrink-0 items-center space-x-1">
-        <img
-          alt="11st starter-kit logo"
-          class="h-8 w-auto"
-          src="/images/11st-logo.svg"
-          height="32"
-          width="32"
-        />
-        <figcaption>Starter-Kit</figcaption>
-      </figure>
-      <ul class="flex space-x-4">
-        {% for item in navigation.items %} {% if item.url == page.url %} {%
+      <a href="{{ '/' | url }}">
+        <h1>Verb</h1>
+      </a>
+      <ul class="flex list-none space-x-4">
+        <!-- {% for item in navigation.items %} {% if item.url == page.url %} {%
         assign highlight = 'cursor-default' %} {% assign current =
         'aria-current="page"' %} {% else %} {% assign highlight = 'underline' %}
         {% assign current = '' %} {% endif %}
@@ -27,13 +20,10 @@
             {{ item.text }}
           </a>
         </li>
-        {% endfor %}
+        {% endfor %} -->
         <li>
-          <a
-            href="https://github.com/stefanfrede/11st-starter-kit/"
-            class="text-base font-bold underline hover:text-green-900"
-          >
-            GitHub
+          <a href="{{ '/form/' | url }}" class="btn" {{ current }}>
+            Get Started
           </a>
         </li>
       </ul>

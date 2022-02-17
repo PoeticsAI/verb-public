@@ -1,0 +1,49 @@
+---
+layout: 'layouts/plain.html'
+title: 'Home'
+meta:
+  desc:
+    '11st-Starter-Kit is a minimal starting point for building static websites
+    with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
+---
+
+<form
+  action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791"
+  method="POST"
+>
+  <div class="input mb-4">
+    <input type="text" id="fname" placeholder="Name" />
+    <label for="fname">First Name</label>
+  </div>
+  <div class="input mb-4">
+    <input
+      type="email"
+      id="email"
+      name="Email"
+      placeholder="Email"
+      required=""
+    />
+    <label for="email">Email</label>
+  </div>
+
+  <div class="input mb-4">
+    <textarea
+      id="message"
+      name="Message"
+      placeholder="Message"
+      required=""
+    ></textarea>
+    <label for="message">Why are you signing up?</label>
+  </div>
+  <button type="submit" class="btn btn-long">Send</button>
+  <input
+    type="hidden"
+    name="_autoresponse"
+    value="Got it, thanks will be in touch."
+  />
+  <input
+    type="hidden"
+    name="_next"
+    value="https://poeticsai.github.io/verb-public/thanks.html"
+  />
+</form>
