@@ -11,7 +11,8 @@ export default defineConfig({
       input: {
         404: resolve(__dirname, '_site', '404.html'),
         main: resolve(__dirname, '_site', 'index.html'),
-        // about: resolve(__dirname, '_site', 'about', 'index.html'),
+        form: resolve(__dirname, '_site', 'form', 'index.html'),
+        thanks: resolve(__dirname, '_site', 'thanks', 'index.html'),
       },
     },
     emptyOutDir: true,
