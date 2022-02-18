@@ -5,7 +5,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['"iA Writer Quattro"', "sans-serif"],
+
+      },
+      colors: {
+        'green': '#A1C57B',
+
       },
     },
   },

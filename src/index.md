@@ -7,6 +7,7 @@ meta:
     with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
 ---
 
-## The Verb App
-
-<h2>Hello</h2>
+<h1 class="italic">
+  Write your book.<br/>
+  With a little help.
+</h1>

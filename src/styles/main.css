@@ -11,11 +11,11 @@ p {
 }
 
 h1 {
-  @apply mb-4 text-4xl lg:text-6xl;
+  @apply mb-4 text-4xl font-light  lg:text-6xl;
 }
 
 h2 {
-  @apply mb-4 text-3xl font-extrabold lg:text-5xl;
+  @apply mb-4 text-3xl font-light lg:text-5xl;
 }
 
 h3 {
@@ -39,7 +39,7 @@ ul {
 }
 
 .btn {
-  @apply inline-block rounded bg-red-800 py-1.5 px-6 text-white transition-colors hover:bg-gray-400;
+  @apply inline-block rounded-full bg-green py-1.5 px-6 text-white transition-colors hover:bg-gray-400;
 }
 
 .btn-big {
@@ -87,4 +87,147 @@ ul {
 .input input[type='email']:not(:placeholder-shown) + label,
 .input input[type='password']:not(:placeholder-shown) + label {
   @apply absolute left-3 top-1.5 z-10 text-xs text-gray-400;
+}
+
+/* Normal */
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 100;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 800;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/iAWriterQuattroV.ttf') format('truetype');
+}
+
+/* Italic */
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 100;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 200;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 300;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 500;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 600;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: 800;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'iA Writer Quattro';
+  font-weight: bold;
+  font-style: italic;
+  src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
 }
