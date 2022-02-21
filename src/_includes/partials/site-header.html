@@ -25,7 +25,7 @@
         </li>
         {% endfor %} -->
         <li>
-          <a href="{{ '/form/' | url }}" class="btn" {{ current }}>
+          <a class="btn cursor-pointer" x-on:click="modal = ! modal" >
             Get Started
           </a>
         </li>
