@@ -62,7 +62,7 @@ ul {
 }
 
 .input textarea {
-  @apply h-32;
+  @apply h-24;
 }
 
 .input textarea + label,

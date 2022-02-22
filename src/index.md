@@ -41,7 +41,7 @@ meta:
     <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" >
       <div class="mb-4">
         <h3>Join our beta today.</h3>
-        <p>Fill in the form below and we will be in touch.</p>
+        <p>Fill in the form you chump.</p>
       </div>
       <div class="flex gap-4 mb-4">
         <div class="input">
@@ -76,7 +76,7 @@ meta:
           required=""
           class="w-full"
         ></textarea>
-        <label for="use">Name the top 3 reasons someone would use Verb</label>
+        <label for="use">Top 3 reasons a author would use Verb</label>
       </div>
       <div class="input mb-4">
         <textarea
@@ -86,7 +86,7 @@ meta:
           required=""
           class="w-full"
         ></textarea>
-        <label for="doubt">Name the top 3 doubts a user might have</label>
+        <label for="doubt">Top 3 doubts an author might have?</label>
       </div>
       <button type="submit" class="btn btn-long">Send</button>
       <input
