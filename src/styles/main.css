@@ -7,11 +7,11 @@
 }
 
 p {
-  @apply text-[14px] lg:text-lg;
+  @apply text-[14px] leading-normal md:text-base;
 }
 
 h1 {
-  @apply mb-4 text-4xl font-light  lg:text-6xl;
+  @apply mb-4 font-serif text-3xl md:text-[50px] md:leading-[56px];
 }
 
 h2 {
@@ -39,11 +39,11 @@ ul {
 }
 
 .btn {
-  @apply inline-block rounded-full bg-green py-1.5 px-6 text-white transition-colors hover:bg-gray-400;
+  @apply cursor-pointer rounded-full bg-greenNeon py-1 px-10 pb-2 tracking-wide text-black transition-opacity hover:opacity-90;
 }
 
 .btn-big {
-  @apply py-3;
+  @apply py-3 pb-4;
 }
 
 .btn-long {
@@ -230,4 +230,12 @@ ul {
   font-weight: bold;
   font-style: italic;
   src: url('/fonts/iAWriterQuattroV-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alpina';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/alpina.woff2') format('woff2'),
+    url('/fonts/alpina.woff') format('woff');
 }

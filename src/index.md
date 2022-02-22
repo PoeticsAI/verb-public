@@ -7,12 +7,34 @@ meta:
     with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
 ---
 
-<div>
-  <h1 class="italic">
-    Write your book.<br/>
-    With a little help.
-  </h1>
-  
+<div class="container px-6 ">
+  <section class="md:flex justify-center ">
+    <div class="md:flex md:order-2 pb-8 md:pb-0 w-full md:w-half">
+      <div class="relative">
+        <video class="rounded-[20px] relative z-10" autoplay>
+            <!-- <source src="/media/describe.webm"
+                    type="video/webm"> -->
+            <source src="/media/describe.mp4"
+                    type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <div class="w-[325px] h-[288px] bg-blurGreen absolute -top-8 -left-10 blur-3xl opacity-20"></div>
+        <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div>
+        <div class="w-[419px] h-[366px] bg-blurBlue absolute -bottom-10 right-8 blur-3xl opacity-20"></div> 
+        <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>
+      </div>
+    </div>
+    <div class="md:flex md:order-1 w-full md:items-center md:justify-center md:w-half md:mr-20 lg:mr-0">
+      <div class="lg:max-w-lg">
+        <h1 class="mb-5">Write <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">the book</span> you always knew you could</h1>
+        <p class="mb-12 max-w-sm">Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feebdack on their work.</p>
+        <a x-on:click="modal = ! modal" class="btn btn-big">Start Writing</a>
+      </div>
+    </div>
+
+  </section>
+</div>
+
 <div  x-bind:class="! modal ? 'hidden' : ''" 
       x-on:click="modal = false"
       class="z-0 fixed top-0 left-0 right-0 bottom-0 backdrop-blur-sm" ></div>
@@ -59,4 +81,3 @@ meta:
       />
     </form>
   </div>
-</div>
