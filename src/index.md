@@ -2,18 +2,16 @@
 layout: 'layouts/plain.html'
 title: 'Verb'
 meta:
-  desc:
-    '11st-Starter-Kit is a minimal starting point for building static websites
-    with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
+  desc: 'Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feedback on their work.'
 ---
 
-<div class="container px-6 ">
+<div class="container">
   <section class="md:flex justify-center ">
     <div class="md:flex md:order-2 pb-8 md:pb-0 w-full md:w-half">
       <div class="relative">
-        <video class="rounded-[20px] relative z-10" autoplay>
-            <!-- <source src="/media/describe.webm"
-                    type="video/webm"> -->
+        <video class="rounded-[20px] relative z-10 shadow-yellow-50 shadow-lg " autoplay loop >
+            <source src="/media/describe.webm"
+                    type="video/webm">
             <source src="/media/describe.mp4"
                     type="video/mp4">
             Sorry, your browser doesn't support embedded videos.
@@ -27,7 +25,7 @@ meta:
     <div class="md:flex md:order-1 w-full md:items-center md:justify-center md:w-half md:mr-20 lg:mr-0">
       <div class="lg:max-w-lg">
         <h1 class="mb-5">Write <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">the book</span> you always knew you could</h1>
-        <p class="mb-12 max-w-sm">Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feebdack on their work.</p>
+        <p class="mb-12 max-w-sm">Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feedback on their work.</p>
         <a x-on:click="modal = ! modal" class="btn btn-big">Start Writing</a>
       </div>
     </div>
@@ -45,13 +43,15 @@ meta:
         <h3>Join our beta today.</h3>
         <p>Fill in the form below and we will be in touch.</p>
       </div>
-      <div class="input mb-4">
-        <input type="text" id="fname" placeholder="Name" class="w-full" />
-        <label for="fname">First Name</label>
-      </div>
-      <div class="input mb-4">
-        <input type="text" id="lname" placeholder="Name" class="w-full" />
-        <label for="lname">Last Name</label>
+      <div class="flex gap-4 mb-4">
+        <div class="input">
+          <input type="text" id="fname" placeholder="Name" class="w-full" />
+          <label for="fname">First Name</label>
+        </div>
+        <div class="input">
+          <input type="text" id="lname" placeholder="Name" class="w-full" />
+          <label for="lname">Last Name</label>
+        </div>
       </div>
       <div class="input mb-4">
         <input type="email" id="email" name="Email" placeholder="Email" required="" class="w-full"
@@ -60,13 +60,33 @@ meta:
       </div>
       <div class="input mb-4">
         <textarea
-          id="message"
-          name="Message"
-          placeholder="Message"
+          id="unique"
+          name="Unique"
+          placeholder="Unique"
           required=""
           class="w-full"
         ></textarea>
-        <label for="message">Why are you signing up?</label>
+        <label for="unique">What makes Verb unique?</label>
+      </div>
+      <div class="input mb-4">
+        <textarea
+          id="use"
+          name="Use"
+          placeholder="Use"
+          required=""
+          class="w-full"
+        ></textarea>
+        <label for="use">Give me the top three reasons someone would use it</label>
+      </div>
+      <div class="input mb-4">
+        <textarea
+          id="doubt"
+          name="Doubt"
+          placeholder="Doubt"
+          required=""
+          class="w-full"
+        ></textarea>
+        <label for="doubt">What are the three biggest doubts a user would have about Verb?</label>
       </div>
       <button type="submit" class="btn btn-long">Send</button>
       <input

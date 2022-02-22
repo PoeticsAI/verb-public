@@ -97,18 +97,3 @@ page_title = meta.title %} {% endif %}
 <!-- link rel="manifest" href="site.webmanifest" / -->
 <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
 <meta name="theme-color" content="#ffffff" />
-
-<!-- Preconnect to the font file origin -->
-<link rel="preconnect" href="https://rsms.me" crossorigin />
-
-<!-- Preload the font stylesheet asynchronously with low priority -->
-<link rel="preload" href="https://rsms.me/inter/inter.css" as="style" />
-
-<!-- https://www.filamentgroup.com/lab/load-css-simpler/ -->
-<link
-  crossorigin="anonymous"
-  rel="stylesheet"
-  href="https://rsms.me/inter/inter.css"
-  media="print"
-  onload="this.media='all'; this.onload=null;"
-/>
