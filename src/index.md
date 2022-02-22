@@ -37,7 +37,7 @@ meta:
       x-on:click="modal = false"
       class="z-0 fixed top-0 left-0 right-0 bottom-0 backdrop-blur-sm" ></div>
 <div  x-bind:class="! modal ? 'hidden' : ''"
-      class="z-20 fixed p-12 bg-white top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2  rounded-lg shadow-lg">
+      class="z-20 fixed md:p-12 p-4 w-[88%] bg-white top-1/2 -translate-x-1/2 ml-[-1%] left-1/2 md:left-[1/2] -translate-y-1/2  rounded-lg shadow-lg">
     <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" >
       <div class="mb-4">
         <h3>Join our beta today.</h3>
@@ -76,7 +76,7 @@ meta:
           required=""
           class="w-full"
         ></textarea>
-        <label for="use">Give me the top three reasons someone would use it</label>
+        <label for="use">Name the top 3 reasons someone would use Verb</label>
       </div>
       <div class="input mb-4">
         <textarea
@@ -86,7 +86,7 @@ meta:
           required=""
           class="w-full"
         ></textarea>
-        <label for="doubt">What are the three biggest doubts a user would have about Verb?</label>
+        <label for="doubt">Name the top 3 doubts a user might have</label>
       </div>
       <button type="submit" class="btn btn-long">Send</button>
       <input
