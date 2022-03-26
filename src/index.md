@@ -35,13 +35,13 @@ meta:
 
 <div  x-bind:class="! modal ? 'hidden' : ''" 
       x-on:click="modal = false"
-      class="z-0 fixed top-0 left-0 right-0 bottom-0 backdrop-blur-sm" ></div>
+      class="z-10 fixed top-0 left-0 right-0 bottom-0 backdrop-blur-sm bg-white bg-opacity-20 " ></div>
 <div  x-bind:class="! modal ? 'hidden' : ''"
-      class="z-20 fixed md:p-12 p-4 w-[88%] bg-white top-1/2 -translate-x-1/2 ml-[-1%] left-1/2 md:left-[1/2] -translate-y-1/2  rounded-lg shadow-lg">
+      class="z-20 fixed md:p-12 p-4 w-[88%] overflow-y-auto max-w-[500px] h-[80%] max-h-[750px] bg-white top-1/2 -translate-x-1/2 ml-[-1%] left-1/2 md:left-[1/2] -translate-y-1/2  rounded-lg shadow-lg">
     <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" >
       <div class="mb-4">
         <h3>Join our beta today.</h3>
-        <p>Fill in the form you chump.</p>
+        <p>We are inviting a cohort of writers to help us perfect integrating AI into an author's workflow. Join us. We will get back to you in 24 hours.</p>
       </div>
       <div class="flex gap-4 mb-4">
         <div class="input">
@@ -60,33 +60,33 @@ meta:
       </div>
       <div class="input mb-4">
         <textarea
-          id="unique"
-          name="Unique"
-          placeholder="Unique"
+          id="what"
+          name="What"
+          placeholder="What"
           required=""
           class="w-full"
         ></textarea>
-        <label for="unique">What makes Verb unique?</label>
+        <label for="what">What are you writing?</label>
       </div>
       <div class="input mb-4">
         <textarea
-          id="use"
-          name="Use"
-          placeholder="Use"
+          id="tools"
+          name="Tools"
+          placeholder="Tools"
           required=""
           class="w-full"
         ></textarea>
-        <label for="use">Top 3 reasons a author would use Verb</label>
+        <label for="tools">What other writing tools do you use?</label>
       </div>
       <div class="input mb-4">
         <textarea
-          id="doubt"
-          name="Doubt"
-          placeholder="Doubt"
+          id="why"
+          name="Why"
+          placeholder="Why"
           required=""
           class="w-full"
         ></textarea>
-        <label for="doubt">Top 3 doubts an author might have?</label>
+        <label for="why">Why do you want to try Verb?</label>
       </div>
       <button type="submit" class="btn btn-long">Send</button>
       <input
