@@ -7,47 +7,67 @@ meta:
     with 11ty, powered by Vite with Tailwind CSS and Alpine.js.'
 ---
 
-<form
-  action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791"
-  method="POST"
->
-  <div class="input mb-4">
-    <input type="text" id="fname" placeholder="Name" />
-    <label for="fname">First Name</label>
-  </div>
-  <div class="input mb-4">
-    <input type="text" id="lname" placeholder="Name" />
-    <label for="lname">Last Name</label>
-  </div>
-  <div class="input mb-4">
+<div class="container mx-auto">
+  <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" class="md:w-1/2 w-full mx-auto " >
+    <div class="mb-16">
+      <h1>Join our beta today.</h1>
+      <p>We are inviting a cohort of writers to help us perfect integrating AI into an author's workflow. Join us. We will get back to you in 24 hours.</p>
+    </div>
+    <div class="flex gap-4 mb-4 w-full">
+      <div class="input w-1/2">
+        <input type="text" id="fname" placeholder="Name" class="w-full" />
+        <label for="fname">First Name</label>
+      </div>
+      <div class="input w-1/2">
+        <input type="text" id="lname" placeholder="Name" class="w-full" />
+        <label for="lname">Last Name</label>
+      </div>
+    </div>
+    <div class="input mb-4">
+      <input type="email" id="email" name="Email" placeholder="Email" required="" class="w-full"
+      />
+      <label for="email">Email</label>
+    </div>
+    <div class="input mb-4">
+      <textarea
+        id="what"
+        name="What"
+        placeholder="What"
+        required=""
+        class="w-full"
+      ></textarea>
+      <label for="what">What are you writing?</label>
+    </div>
+    <div class="input mb-4">
+      <textarea
+        id="tools"
+        name="Tools"
+        placeholder="Tools"
+        required=""
+        class="w-full"
+      ></textarea>
+      <label for="tools">What other writing tools do you use?</label>
+    </div>
+    <div class="input mb-4">
+      <textarea
+        id="why"
+        name="Why"
+        placeholder="Why"
+        required=""
+        class="w-full"
+      ></textarea>
+      <label for="why">Why do you want to try Verb?</label>
+    </div>
+    <button type="submit" class="btn btn-long">Send</button>
     <input
-      type="email"
-      id="email"
-      name="Email"
-      placeholder="Email"
-      required=""
+      type="hidden"
+      name="_autoresponse"
+      value="Got it, thanks will be in touch."
     />
-    <label for="email">Email</label>
-  </div>
-
-  <div class="input mb-4">
-    <textarea
-      id="message"
-      name="Message"
-      placeholder="Message"
-      required=""
-    ></textarea>
-    <label for="message">Why are you signing up?</label>
-  </div>
-  <button type="submit" class="btn btn-long">Send</button>
-  <input
-    type="hidden"
-    name="_autoresponse"
-    value="Got it, thanks will be in touch."
-  />
-  <input
-    type="hidden"
-    name="_next"
-    value="https://elated-cori-24a9ee.netlify.app/thanks/"
-  />
-</form>
+    <input
+      type="hidden"
+      name="_next"
+      value="https://elated-cori-24a9ee.netlify.app/thanks/"
+    />
+  </form>
+</div>

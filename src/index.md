@@ -5,99 +5,129 @@ meta:
   desc: 'Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feedback on their work.'
 ---
 
-<div class="container">
-  <section class="md:flex justify-center ">
-    <div class="md:flex md:order-2 pb-8 md:pb-0 w-full md:w-half">
-      <div class="relative">
-        <video class="rounded-[20px] relative z-10 shadow-yellow-50 shadow-lg " autoplay loop >
-            <source src="/media/describe.webm"
-                    type="video/webm">
-            <source src="/media/describe.mp4"
-                    type="video/mp4">
-            Sorry, your browser doesn't support embedded videos.
-        </video>
-        <div class="w-[325px] h-[288px] bg-blurGreen absolute -top-8 -left-10 blur-3xl opacity-20"></div>
-        <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div>
-        <div class="w-[419px] h-[366px] bg-blurBlue absolute -bottom-10 right-8 blur-3xl opacity-20"></div> 
-        <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>
-      </div>
+<div class="bg-white overflow-x-hidden pb-8 sm:pb-12 lg:pb-12">
+  <div class="pt-0 sm:pt-12 lg:relative lg:py-48">
+    <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
+        <div>
+            <div class="mt-20">
+                <!-- <div>
+                    <a href="#" class="inline-flex space-x-4">
+                        <span class="rounded bg-greenNeon bg-opacity-20 px-2.5 py-1 text-xs font-semibold text-gray-400 tracking-wide uppercase">
+                            Upgraded
+                        </span>
+                        <span class="inline-flex items-center text-sm font-medium text-gray-400 space-x-1">
+                            <span>Now using Describe 2.0</span>
+                            <ChevronRightIcon
+                                class="h-5 w-5"
+                                aria-hidden="true"
+                            />
+                        </span>
+                    </a>
+                </div> -->
+                <div class="mt-6 sm:max-w-xl">
+                    <h1 class="text-gray-900">
+                        A novel way to write <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">your book</span>
+                    </h1>
+                    <p class="mt-6 w-2/3">
+                        Verb uses cutting edge technology to shortcut the novel-writing process. Use it to get your vision into words – with more speed, less pain.
+                    </p>
+                    <div class="mt-12">
+                      <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> <a href="{{ '/thoughts/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="md:flex md:order-1 w-full md:items-center md:justify-center md:w-half md:mr-20 lg:mr-0">
-      <div class="lg:max-w-lg">
-        <h1 class="mb-5">Write <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">the book</span> you always knew you could</h1>
-        <p class="mb-12 max-w-sm">Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feedback on their work.</p>
-        <a x-on:click="modal = ! modal" class="btn btn-big">Start Writing</a>
-      </div>
+    <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
+        <div class="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
+                <img
+                    class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none z-10 relative"
+                    src="/media/bad-screenshot.jpg"
+                    alt=""
+                />
+                <div class="w-[325px] h-[288px] bg-blurGreen absolute -top-8 -left-10 blur-3xl opacity-20"></div>
+                <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div>
+                <div class="w-[419px] h-[366px] bg-blurBlue absolute -bottom-10 right-8 blur-3xl opacity-20"></div>
+                <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>
+            </div>
+        </div>
     </div>
-
-  </section>
+  </div>
 </div>
 
-<div  x-bind:class="! modal ? 'hidden' : ''" 
-      x-on:click="modal = false"
-      class="z-10 fixed top-0 left-0 right-0 bottom-0 backdrop-blur-sm bg-white bg-opacity-20 " ></div>
-<div  x-bind:class="! modal ? 'hidden' : ''"
-      class="z-20 fixed md:p-12 p-4 w-[88%] overflow-y-auto max-w-[500px] h-[80%] max-h-[750px] bg-white top-1/2 -translate-x-1/2 ml-[-1%] left-1/2 md:left-[1/2] -translate-y-1/2  rounded-lg shadow-lg">
-    <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" >
-      <div class="mb-4">
-        <h3>Join our beta today.</h3>
-        <p>We are inviting a cohort of writers to help us perfect integrating AI into an author's workflow. Join us. We will get back to you in 24 hours.</p>
-      </div>
-      <div class="flex gap-4 mb-4">
-        <div class="input">
-          <input type="text" id="fname" placeholder="Name" class="w-full" />
-          <label for="fname">First Name</label>
+<section class="container px-6 mx-auto my-48 relative">
+    <div class="">
+        <div class="flex bg-white z-10 relative p-16 rounded-[20px] shadow-md justify-between">
+            <div class="w-5/12">
+                <h4 class="text-pink uppercase ">Novel Planner</h4>
+                <h2 class="mb-6">The terror of the blank page is all too real</h2>
+                <p class="w-2/3 mb-6">Struggling on that first page? Use Verb’s Novel Planner to scaffold out a plot in ten minutes flat.
+                </p>
+                <ul class="w-2/3 ml-8 list-outside marker:text-pink text-lg marker:text-2xl">
+                    <li>Get plot point suggestions</li>
+                    <li>Lay out chapters and scenes in a drag drop interface.</li>
+                </ul>
+            </div>
+            <div class="w-5/12 ">
+                <div class="bg-white z-20 relative p-16 rounded-[20px] shadow-[10px_24px_74px_15px_rgba(141,127,3,0.05)] h-[calc(100%+13rem)] -top-24">
+                </div>
+            </div>
         </div>
-        <div class="input">
-          <input type="text" id="lname" placeholder="Name" class="w-full" />
-          <label for="lname">Last Name</label>
-        </div>
-      </div>
-      <div class="input mb-4">
-        <input type="email" id="email" name="Email" placeholder="Email" required="" class="w-full"
-        />
-        <label for="email">Email</label>
-      </div>
-      <div class="input mb-4">
-        <textarea
-          id="what"
-          name="What"
-          placeholder="What"
-          required=""
-          class="w-full"
-        ></textarea>
-        <label for="what">What are you writing?</label>
-      </div>
-      <div class="input mb-4">
-        <textarea
-          id="tools"
-          name="Tools"
-          placeholder="Tools"
-          required=""
-          class="w-full"
-        ></textarea>
-        <label for="tools">What other writing tools do you use?</label>
-      </div>
-      <div class="input mb-4">
-        <textarea
-          id="why"
-          name="Why"
-          placeholder="Why"
-          required=""
-          class="w-full"
-        ></textarea>
-        <label for="why">Why do you want to try Verb?</label>
-      </div>
-      <button type="submit" class="btn btn-long">Send</button>
-      <input
-        type="hidden"
-        name="_autoresponse"
-        value="Got it, thanks will be in touch."
-      />
-      <input
-        type="hidden"
-        name="_next"
-        value="https://elated-cori-24a9ee.netlify.app/thanks/"
-      />
-    </form>
+        <div class="w-[795px] h-[288px] bg-blurRed absolute -top-8 -left-10 blur-3xl opacity-20"></div>
+        <!-- <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div> -->
+        <div class="w-[719px] h-[366px] bg-blurBlue absolute -bottom-16 right-10 blur-3xl opacity-20"></div>
+        <!-- <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>-->
   </div>
+</section>
+
+<section class="container px-6 mx-auto my-48 relative">
+    <div class="">
+        <div class="flex bg-white z-10 relative p-16 rounded-[20px] shadow-md justify-between align-middle">
+            <div class="w-5/12">
+                <h4 class="text-orange uppercase ">LET VERB WRITE IT</h4>
+                <h2 class="mb-6">Can’t quite find the right phrase?</h2>
+                <p class="w-2/3 mb-6">Tell Verb what you want from a paragraph -- and it'll write one for you. In seconds. In the voice you choose.</p>
+                <ul class="w-2/3 ml-8 list-outside marker:text-orange text-lg marker:text-2xl">
+                    <li>Ask Verb to write anything, description, character sketches, even dialogue</li>
+                    <li>Edit, adapt or start over it is up to you. The text is 100% new and yours to craft.</li>
+                </ul>
+            </div>
+            <div class="w-5/12 ">
+                <div class="bg-white z-20 relative rounded-[20px] shadow-[10px_24px_74px_15px_rgba(141,127,3,0.05)]">
+                    <video autoplay class="rounded-[20px]" >
+                        <source src="/media/describe.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="w-[795px] h-[288px] bg-blurYellow absolute -top-8 -left-10 blur-3xl opacity-20"></div>
+        <!-- <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div> -->
+        <div class="w-[719px] h-[366px] bg-blurPurple absolute -bottom-16 right-10 blur-3xl opacity-20"></div>
+        <!-- <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>-->
+  </div>
+</section>
+
+<section class="container px-6 mx-auto my-48 relative">
+    <div class="">
+        <div class="flex bg-white z-10 relative p-16 rounded-[20px] shadow-md justify-between">
+            <div class="w-5/12">
+                <h4 class="text-teal uppercase ">Meaningful, real-time feedback</h4>
+                <h2 class="mb-6">Is your writing connecting? Is your work working?</h2>
+                <p class="w-2/3 mb-6">Verb has publishing-industry feedback built-in. It will score your novel from 1-100 based on how likely it is to be published.</p>
+                <ul class="w-2/3 ml-8 list-outside marker:text-teal text-lg marker:text-2xl">
+                    <li>Scored across a variety of metrics</li>
+                    <li>Track your progress as you write and edit, never backslide again</li>
+                </ul>
+            </div>
+            <div class="w-5/12 ">
+                <div class="bg-white z-20 relative p-16 rounded-[20px] shadow-[10px_24px_74px_15px_rgba(141,127,3,0.05)] h-[calc(100%+13rem)] -top-24">
+                </div>
+            </div>
+        </div>
+        <div class="w-[795px] h-[288px] bg-blurBlue absolute -top-8 -left-10 blur-3xl opacity-20"></div>
+        <!-- <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div> -->
+        <div class="w-[719px] h-[366px] bg-blurGreen absolute -bottom-16 right-10 blur-3xl opacity-20"></div>
+        <!-- <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>-->
+  </div>
+</section>

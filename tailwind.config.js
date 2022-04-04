@@ -6,9 +6,13 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['"iA Writer Quattro"', "sans-serif"],
-        serif: ['Alpina', "serif"],
+        serif: ['Walsheim', "serif"],
 
       },
+      dropShadow: {
+        'home': '10px 24px 74px 15px rgba(141, 127, 3, 0.05)'
+      },
+
       colors: {
         'green': '#A1C57B',
         'greenNeon': '#72FFA2',
@@ -17,6 +21,9 @@ module.exports = {
         'blurGreen': '#74FFDE',
         'blurPurple': '#748AFF',
         'blurRed': '#FF7495',
+        'pink': '#F70FE8',
+        'orange': '#FFC93E',
+        'teal': '#1A958D'
 
       },
     },

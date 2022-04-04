@@ -7,19 +7,19 @@
 }
 
 p {
-  @apply text-[14px] leading-normal md:text-base;
+  @apply font-serif text-lg font-light leading-tight md:text-[22px];
 }
 
 h1 {
-  @apply mb-4 font-serif text-3xl md:text-[50px] md:leading-[56px];
+  @apply mb-6 font-serif text-5xl font-bold md:text-[63px] md:leading-[60px];
 }
 
 h2 {
-  @apply mb-4 text-3xl font-light lg:text-5xl;
+  @apply mb-4  font-serif text-3xl font-bold lg:text-5xl;
 }
 
 h3 {
-  @apply mb-4 text-2xl font-bold lg:text-3xl;
+  @apply mb-4 font-serif text-2xl font-bold lg:text-3xl;
 }
 
 h4 {
@@ -35,11 +35,12 @@ h6 {
 }
 
 ul {
-  @apply list-disc;
+  @apply list-disc font-serif font-light;
 }
 
 .btn {
-  @apply cursor-pointer rounded-full bg-greenNeon py-1 px-10 pb-2 tracking-wide text-black transition-opacity hover:opacity-90;
+  @apply cursor-pointer rounded-full border border-greenNeon bg-greenNeon py-1 px-10 pb-2 font-serif tracking-wide
+  text-black transition-all hover:bg-white;
 }
 
 .btn-big {
@@ -48,6 +49,10 @@ ul {
 
 .btn-long {
   @apply px-16;
+}
+
+.btn-outline {
+  @apply border border-greenNeon bg-white transition-all hover:bg-greenNeon;
 }
 
 .input {
@@ -238,4 +243,26 @@ ul {
   font-style: normal;
   src: url('/fonts/alpina.woff2') format('woff2'),
     url('/fonts/alpina.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Walsheim';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/gt-walsheim-pro-regular-webfont.woff2') format('woff2'),
+    url('/fonts/gt-walsheim-pro-regular-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Walsheim';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/fonts/gt-walsheim-pro-medium-webfont.woff2') format('woff2'),
+    url('/fonts/gt-walsheim-pro-medium-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Walsheim';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/gt-walsheim-pro-bold-webfont.woff2') format('woff2'),
+    url('/fonts/gt-walsheim-pro-bold-webfont.woff') format('woff');
 }
