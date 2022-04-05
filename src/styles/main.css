@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-  @apply mb-4 text-xl lg:text-2xl;
+  @apply mb-4 font-serif text-xl lg:text-2xl;
 }
 
 h5 {
