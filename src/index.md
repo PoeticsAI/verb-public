@@ -20,7 +20,7 @@ meta:
                     <h1 class="text-gray-900 md:max-w-none max-w-[280px]">
                         A novel way to write <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">your book</span>
                     </h1>
-                    <p class="md:mt-6 mt-4 w-2/3">
+                    <p class="md:mt-6 mt-4 md:w-2/3">
                         Verb uses cutting edge technology to shortcut the novel-writing process. Use it to get your vision into words – with more speed, less pain.
                     </p>
                     <div class="md:mt-12 mt-8">
@@ -38,32 +38,37 @@ meta:
                     src="/media/bad-screenshot.jpg"
                     alt=""
                 />
+                <!-- <video autoplay loop class="rounded-md w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none z-10 relative" >
+                        <source autoplay loop src="/media/describe-long-huge.mp4" type="video/mp4">
+                    </video> -->
                 <div class="w-[325px] h-[288px] bg-blurGreen absolute -top-8 -left-10 blur-3xl opacity-20"></div>
                 <div class="w-[325px] h-[288px] bg-blurPurple absolute -top-8 -right-20 blur-3xl opacity-20"></div>
-                <div class="w-[419px] h-[366px] bg-blurBlue absolute -bottom-10 right-8 blur-3xl opacity-20"></div>
-                <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>
+                <div class="w-[419px] h-[366px] bg-blurBlue absolute -bottom-0 right-8 blur-3xl opacity-20"></div>
+                <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-10 -left-20 blur-3xl opacity-20"></div>
             </div>
         </div>
     </div>
   </div>
 </div>
 
-<section class="container px-6 mx-auto md:my-48 my-16 relative">
+<section class="container px-6 mx-auto md:my-32 my-16 relative">
     <div class="">
-        <div class="md:flex bg-white z-10 relative md:p-16 p-6 rounded-[20px] shadow-md justify-between items-center">
+        <div class="md:flex bg-white z-10 relative md:p-16 p-6 rounded-md shadow-md justify-between items-center">
             <div class="md:w-5/12 w-full mb-6 md:mb-0">
                 <h4 class="text-pink uppercase ">Novel Planner</h4>
-                <h2 class="mb-6">The terror of the blank page is all too real</h2>
+                <h2 class="mb-6">The terror of the blank page is real</h2>
                 <p class="md:w-2/3 w-full mb-6">Struggling on that first page? Use Verb’s Novel Planner to scaffold out a plot in ten minutes flat.
                 </p>
                 <ul class="md:w-2/3 w-full ml-6 list-outside marker:text-pink text-lg marker:text-2xl">
-                    <li>Get plot point suggestions</li>
+                    <li>Use our custom AI to get automatic plot point suggestions</li>
                     <li>Lay out chapters and scenes in a drag drop interface.</li>
                 </ul>
             </div>
-            <div class="md:w-5/12 w-full ">
-                <div class="bg-white z-20 relative  rounded-[20px] shadow-[10px_24px_74px_15px_rgba(141,127,3,0.05)]">
-                    <img src="/media/plan.jpg" alt="" class="rounded-[20px]" />
+            <div class="md:w-7/12 w-full ">
+                <div class="bg-white z-20 relative  rounded-md ">
+                    <video autoplay loop class="rounded-md md:absolute md:left-[15px] md:max-w-[110%]  max-w-100% md:-translate-y-1/2 shadow-home " >
+                        <source autoplay loop src="/media/plan-huge-crop.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
@@ -74,22 +79,22 @@ meta:
   </div>
 </section>
 
-<section class="container px-6 mx-auto md:my-48 my-16 relative">
+<section class="container px-6 mx-auto md:my-32 my-16 relative">
     <div class="">
-        <div class="md:flex bg-white z-10 relative md:p-16 p-6  rounded-[20px] shadow-md justify-between items-center">
+        <div class="md:flex bg-white z-10 relative md:p-16 p-6  rounded-md shadow-md justify-between items-center">
             <div class="md:w-5/12 w-full md:mb-0 mb-6">
-                <h4 class="text-orange uppercase ">LET VERB WRITE IT</h4>
+                <h4 class="text-orange uppercase ">unblock writer's block</h4>
                 <h2 class="mb-6">Can’t quite find the right phrase?</h2>
                 <p class="md:w-2/3 w-full mb-6">Tell Verb what you want from a paragraph -- and it'll write one for you. In seconds. In the voice you choose.</p>
                 <ul class="md:w-2/3 w-11/12 ml-6 list-outside marker:text-orange text-lg marker:text-2xl">
-                    <li>Ask Verb to write anything, description, character sketches, even dialogue</li>
-                    <li>Edit, adapt or start over it is up to you. The text is 100% new and yours to craft.</li>
+                    <li>Ditch that constipated feeling – ask Verb to write anything, description, character sketches, even dialogue</li>
+                    <!-- <li>Edit, adapt or start over all together the text is up to you. The text is 100% new and yours to craft.</li> -->
                 </ul>
             </div>
             <div class="md:w-5/12 w-full ">
-                <div class="bg-white z-20 relative rounded-[20px] shadow-[10px_24px_74px_15px_rgba(141,127,3,0.05)]">
-                    <video autoplay class="rounded-[20px]" >
-                        <source src="/media/describe.mp4" type="video/mp4">
+                <div class="bg-white z-20 relative">
+                    <video autoplay loop class="rounded-md  shadow-home" >
+                        <source autoplay loop src="/media/describe-long-huge.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -101,9 +106,9 @@ meta:
   </div>
 </section>
 
-<section class="container px-6 mx-auto md:my-48 my-16 relative">
+<section class="container px-6 mx-auto md:my-32 my-16 relative">
     <div class="">
-        <div class="md:flex bg-white z-10 relative md:p-16 p-8 rounded-[20px] shadow-md justify-between items-center">
+        <div class="md:flex bg-white z-10 relative md:p-16 p-8 rounded-md shadow-md justify-between items-center">
             <div class="md:w-5/12 w-full md:mb-0 mb-6">
                 <h4 class="text-teal uppercase ">Meaningful, real-time feedback</h4>
                 <h2 class="mb-6">Is your writing connecting? Is your work working?</h2>
@@ -114,8 +119,8 @@ meta:
                 </ul>
             </div>
             <div class="md:w-5/12 w-full ">
-                <div class="bg-white z-20 relative  rounded-[20px] shadow-[10px_24px_74px_15px_rgba(141,127,3,0.05)] ">
-                    <img src="/media/critic.jpg" alt="" class="rounded-[20px]" />
+                <div class="bg-white z-20 relative  ">
+                    <img src="/media/critic-cropped.jpg" alt="" class="rounded-md shadow-home md:absolute md:-translate-y-1/2" />
                 </div>
             </div>
         </div>

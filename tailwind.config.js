@@ -9,8 +9,11 @@ module.exports = {
         serif: ['Walsheim', "serif"],
 
       },
-      dropShadow: {
-        'home': '10px 24px 74px 15px rgba(141, 127, 3, 0.05)'
+      boxShadow: {
+        'home': [
+          '10px 24px 74px 15px rgba(141, 127, 3, 0.05)',
+          '0 2px 15px rgba(0, 0, 0, 0.05)'
+        ]
       },
 
       colors: {
