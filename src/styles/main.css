@@ -9,6 +9,13 @@
 p {
   @apply font-serif text-lg font-light leading-tight md:text-[22px];
 }
+.text-block p {
+  @apply mb-4 indent-8 font-sans text-lg font-light md:text-[18px];
+}
+
+.text-block p:first-of-type {
+  @apply indent-0;
+}
 
 h1 {
   @apply mb-6 font-serif text-5xl font-bold md:text-[63px] md:leading-[60px];
@@ -39,12 +46,12 @@ ul {
 }
 
 .btn {
-  @apply cursor-pointer rounded-full border border-greenNeon bg-greenNeon py-1 px-10 pb-2 font-serif tracking-wide
-  text-black transition-all hover:bg-white;
+  @apply cursor-pointer rounded-full border border-greenNeon bg-greenNeon py-1 px-3 pb-2 font-serif text-sm tracking-wide
+  text-black transition-all hover:bg-white md:px-5;
 }
 
 .btn-big {
-  @apply py-3 pb-4;
+  @apply py-3 px-10 pb-4 text-base;
 }
 
 .btn-long {
