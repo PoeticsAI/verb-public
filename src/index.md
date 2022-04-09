@@ -24,7 +24,7 @@ meta:
                         Verb uses cutting edge technology to shortcut the novel-writing process. Use it to get your vision into words – with more speed, less pain.
                     </p>
                     <div class="md:mt-12 mt-8">
-                      <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> <a href="{{ '/thoughts/' | url }}" class="btn btn-big btn-outline hidden md:inline-block">Our thinking</a>
+                      <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> <a href="{{ '/thoughts/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
                     </div>
                 </div>
             </div>

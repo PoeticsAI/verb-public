@@ -51,7 +51,7 @@ ul {
 }
 
 .btn-big {
-  @apply py-3 px-10 pb-4 text-base;
+  @apply px-5 py-2 pb-[10px] text-sm md:py-3 md:px-10 md:pb-4 md:text-base;
 }
 
 .btn-long {
