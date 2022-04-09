@@ -13,6 +13,7 @@ export default defineConfig({
         main: resolve(__dirname, '_site', 'index.html'),
         form: resolve(__dirname, '_site', 'form', 'index.html'),
         thanks: resolve(__dirname, '_site', 'thanks', 'index.html'),
+        about: resolve(__dirname, '_site', 'about', 'index.html'),
       },
     },
     emptyOutDir: true,
