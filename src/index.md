@@ -24,7 +24,7 @@ meta:
                         Verb uses cutting edge technology to shortcut the novel-writing process. Use it to get your vision into words – with more speed, less pain.
                     </p>
                     <div class="md:mt-12 mt-8">
-                      <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> <a href="{{ '/thoughts/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
+                      <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ meta:
         Premiere understands video,<span class="hidden md:inline"><br/></span>
         Verb is the first to <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">understand stories</span>
     </h2>
-    <a href="{{ '/thoughts/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
+    <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
 </section>
 <section class="container px-6 mx-auto md:my-32 my-16 relative">
     <div class="">
