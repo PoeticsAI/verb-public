@@ -13,6 +13,10 @@ module.exports = {
         'home': [
           '10px 24px 74px 15px rgba(141, 127, 3, 0.05)',
           '0 2px 15px rgba(0, 0, 0, 0.05)'
+        ],
+        'defined': [
+          '10px 24px 74px 15px rgba(141, 127, 3, 0.05)',
+          '0 3px 15px rgba(0, 0, 0, 0.15)'
         ]
       },
 
@@ -26,7 +30,8 @@ module.exports = {
         'blurRed': '#FF7495',
         'pink': '#F70FE8',
         'orange': '#FFC93E',
-        'teal': '#1A958D'
+        'teal': '#1A958D',
+        'reddish': '#ED7676'
 
       },
     },

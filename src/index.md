@@ -51,6 +51,13 @@ meta:
   </div>
 </div>
 
+<section class="container px-6 mx-auto md:mb-32 md:mt-16 my-16 relative">
+    <h2 class="font-extralight mb-10 md:text-[63px] md:leading-[60px] text-[34px]">Photoshop understands images,<span class="hidden md:inline"><br/></span>
+        Premiere understands video,<span class="hidden md:inline"><br/></span>
+        Verb is the first to <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">understand stories</span>
+    </h2>
+    <a href="{{ '/thoughts/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
+</section>
 <section class="container px-6 mx-auto md:my-32 my-16 relative">
     <div class="">
         <div class="md:flex bg-white z-10 relative md:p-16 p-6 rounded-md shadow-md justify-between items-center">
@@ -129,4 +136,43 @@ meta:
         <div class="md:w-[719px] w-[250px] h-[366px] bg-blurGreen absolute -bottom-16 right-10 blur-3xl opacity-20"></div>
         <!-- <div class="w-[325px] h-[288px] bg-blurYellow absolute -bottom-20 -left-20 blur-3xl opacity-20"></div>-->
   </div>
+</section>
+
+<section class="container px-6 mx-auto md:my-32 my-16 relative">
+    <div class="md:flex justify-between">
+        <div class="md:w-5/12">
+            <h4 class="text-reddish uppercase">Admin does not equal writing</h4>
+            <h3 class="mb-6 leading-none">Characters are the lifeblood of your writing. Keeping track of them is crucial but a headache.</h3>
+            <p class="md:w-10/12 w-full text-[20px] mb-8">Verb extracts your characters as you write and gives you a holistic picture of how each one is used. It helps you keep it together and our AI generate language and plot even better.</p>
+            <img src="/media/character.png" alt="" class="rounded-[20px] shadow-defined mb-16" />
+        </div>
+        <div class="md:w-5/12">
+            <h4 class="text-reddish uppercase">Research as art</h4>
+            <h3 class="mb-6 leading-none">Behind every novel is weeks of research. But it’s hard to organise and harder to remember.</h3>
+            <p class="md:w-10/12 w-full text-[20px] mb-8">Upload your research docs, urls and notes direct to Verb. You can even backlink from your writing to your research. And it all helps our AI language generation work better.</p>
+            <img src="/media/research.png" alt="" class="rounded-[20px] shadow-defined" />
+        </div>
+    </div>
+</section>
+
+<section class="container px-6 mx-auto md:my-32 my-16 relative">
+    <h2 class="font-extralight mb-10">
+        There’s even more. Verb is a writing app first of all. So expect a <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">beautiful writing experience,</span> paired with nutso technology
+    </h2>
+    <div class="md:flex gap-4 md:w-3/5 text-xl">
+        <ul class="list-disc  marker:text-2xl marker:text-reddish ml-6 md:w-3/5">
+            <li>Built from the ground up for long document editing and performance</li>
+            <li>Easy, always on navigation</li>
+            <li>Beautiful typography</li>
+            <li>Focus mode</li>
+            <li>Typewriter mode</li>
+        </ul>
+        <ul class="list-disc marker:text-2xl marker:text-reddish ml-6 md:w-3/5">
+            <li>Just the right amount of Formatting options</li>
+            <li>Markdown support</li>
+            <li>Export to word, html and markdown</li>
+            <li>Easy scene and chapter segmenting</li>
+            <li>Offline capable and auto saving every 2 seconds</li>
+        </ul>
+    </div>
 </section>

@@ -254,6 +254,13 @@ ul {
 
 @font-face {
   font-family: 'Walsheim';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/fonts/gt-walsheim-light-webfont.woff2') format('woff2'),
+    url('/fonts/gt-walsheim-light-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Walsheim';
   font-weight: 300;
   font-style: normal;
   src: url('/fonts/gt-walsheim-pro-regular-webfont.woff2') format('woff2'),
