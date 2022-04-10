@@ -168,7 +168,7 @@ meta:
             <li>Typewriter mode</li>
         </ul>
         <ul class="list-disc marker:text-2xl marker:text-reddish ml-6 md:w-3/5">
-            <li>Just the right amount of Formatting options</li>
+            <li>Just the right amount of formatting options</li>
             <li>Markdown support</li>
             <li>Export to word, html and markdown</li>
             <li>Easy scene and chapter segmenting</li>
