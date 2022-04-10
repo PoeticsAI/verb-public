@@ -52,9 +52,7 @@ meta:
 </div>
 
 <section class="container px-6 mx-auto md:mb-32 md:mt-16 my-16 relative">
-    <h2 class="font-extralight mb-10 md:text-[63px] md:leading-[60px] text-[34px]">Photoshop understands images,<span class="hidden md:inline"><br/></span>
-        Premiere understands video,<span class="hidden md:inline"><br/></span>
-        Verb is the first to <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">understand stories</span>
+    <h2 class="font-extralight mb-10 md:text-[63px] md:leading-[60px] text-[34px]">Creatives in every field have software collaborators that contribute meaningfully to their work. Writers are stuck with Word or worse.  <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">Verb is here to help.</span>
     </h2>
     <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
 </section>
@@ -143,7 +141,7 @@ meta:
         <div class="md:w-5/12">
             <h4 class="text-reddish uppercase">Admin does not equal writing</h4>
             <h3 class="mb-6 leading-none">Characters are the lifeblood of your writing. Keeping track of them is crucial but a headache.</h3>
-            <p class="md:w-10/12 w-full text-[20px] mb-8">Verb extracts your characters as you write and gives you a holistic picture of how each one is used. It helps you keep it together and our AI generate language and plot even better.</p>
+            <p class="md:w-10/12 w-full text-[20px] mb-8">Get a holistic picture of how each of your characters is used with no extra work – Verb automatically extracts and tracks characters as your write so you don't have to. </p>
             <img src="/media/character.png" alt="" class="rounded-[20px] shadow-defined mb-16" />
         </div>
         <div class="md:w-5/12">
