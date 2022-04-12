@@ -81,7 +81,7 @@ meta:
             <div class="md:w-7/12 w-full ">
                 <div class="bg-white z-20 relative  rounded-md ">
                     <video autoplay muted loop class="rounded-md md:absolute md:left-[15px] md:max-w-[110%]  max-w-100% md:-translate-y-1/2 shadow-home " >
-                        <source autoplay muted loop src="/media/plan-huge-crop.mp4" type="video/mp4">
+                        <source autoplay muted loop src="/media/plan-fast.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
