@@ -5,15 +5,18 @@ meta:
   desc: 'Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feedback on their work.'
 ---
 
+<div class="opacity-0 transition-all" :class="{ 'opacity-100' : showMenu }" @scroll.window="showMenu = (window.pageYOffset > 350) ? true : false">
+    {% include "partials/site-header.html" %}
+</div>
 <div class="fixed bottom-4 left-1/2 -ml-5 z-50 animate-bounce transition-opacity ease-in-out delay-150" 
        :class="{ 'opacity-0' : showBar }"
        @scroll.window="showBar = (window.pageYOffset > 50) ? true : false">
     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="13" cy="13" r="13" fill="#FFC93E"/>
-    <path d="M8 11L13 16L18 11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="13" cy="13" r="13" fill="#FFC93E" />
+        <path d="M8 11L13 16L18 11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
-
 </div>
+
 <div class="bg-white overflow-x-hidden pb-8 ">
   <div class="pt-0 sm:pt-12 lg:relative lg:py-48">
     <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
