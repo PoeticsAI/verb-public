@@ -8,7 +8,7 @@ meta:
 <div class="opacity-0 transition-all" :class="{ 'opacity-100' : showMenu }" @scroll.window="showMenu = (window.pageYOffset > 350) ? true : false">
     {% include "partials/site-header.html" %}
 </div>
-<div class="fixed bottom-4 left-1/2 -ml-5 z-50 animate-bounce transition-opacity ease-in-out delay-150" 
+<div class="fixed bottom-4 left-1/2 -ml-[13px] z-50 animate-bounce transition-opacity ease-in-out delay-150" 
        :class="{ 'opacity-0' : showBar }"
        @scroll.window="showBar = (window.pageYOffset > 50) ? true : false">
     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,9 +32,7 @@ meta:
                     <h1 class="text-gray-900 md:max-w-none max-w-[280px]">
                         A novel way to write <span class="underline decoration-greenNeon decoration-[6px] underline-offset-[4px]">your story</span>
                     </h1>
-                    <p class="md:mt-6 mt-4 md:w-2/3">
-                        Verb uses cutting edge technology to shortcut the novel-writing process. Use it to get your vision into words – with more speed, less pain.
-                    </p>
+                    <p class="md:mt-6 mt-4 md:w-9/12">Verb is a machine-led writing partner. Like the best editors it helps you plan, write and critique your work.  Use it to get your vision into words – with more speed, less pain. </p>
                     <div class="md:mt-12 mt-8">
                       <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
                     </div>
@@ -102,7 +100,7 @@ meta:
             <div class="md:w-5/12 w-full md:mb-0 mb-6">
                 <h4 class="text-orange uppercase ">unblock writer's block</h4>
                 <h2 class="mb-6">Can’t quite find the right phrase?</h2>
-                <p class="md:w-2/3 w-full mb-6">Tell Verb what you want from a paragraph -- and it'll write one for you. In seconds. In the voice you choose.</p>
+                <p class="md:w-2/3 w-full mb-6">Tell Verb what you want from a paragraph – and it'll write a first draft for you. In seconds. In your style.</p>
                 <ul class="md:w-2/3 w-11/12 ml-6 list-outside marker:text-orange text-lg marker:text-2xl">
                     <li>Ditch that constipated feeling – ask Verb to write anything, description, character sketches, even dialogue</li>
                     <!-- <li>Edit, adapt or start over all together the text is up to you. The text is 100% new and yours to craft.</li> -->
