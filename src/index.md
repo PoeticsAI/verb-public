@@ -5,7 +5,16 @@ meta:
   desc: 'Verb is an AI-powered writing tool built specifically to help novelists plan, write and get feedback on their work.'
 ---
 
-<div class="bg-white overflow-x-hidden pb-8 sm:pb-12 lg:pb-12">
+<div class="fixed bottom-4 left-1/2 -ml-5 z-50 animate-bounce transition-opacity ease-in-out delay-150" 
+       :class="{ 'opacity-0' : showBar }"
+       @scroll.window="showBar = (window.pageYOffset > 50) ? true : false">
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="13" cy="13" r="13" fill="#FFC93E"/>
+    <path d="M8 11L13 16L18 11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+</div>
+<div class="bg-white overflow-x-hidden pb-8 ">
   <div class="pt-0 sm:pt-12 lg:relative lg:py-48">
     <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
@@ -18,7 +27,7 @@ meta:
                 </div>
                 <div class="mt-6 sm:max-w-xl">
                     <h1 class="text-gray-900 md:max-w-none max-w-[280px]">
-                        A novel way to write <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">your book</span>
+                        A novel way to write <span class="underline decoration-greenNeon decoration-[6px] underline-offset-[4px]">your story</span>
                     </h1>
                     <p class="md:mt-6 mt-4 md:w-2/3">
                         Verb uses cutting edge technology to shortcut the novel-writing process. Use it to get your vision into words – with more speed, less pain.
@@ -51,7 +60,7 @@ meta:
   </div>
 </div>
 
-<section class="container px-6 mx-auto md:mb-32 md:mt-16 my-16 relative">
+<section class="container px-6 mx-auto md:mb-32 md:mt-0 my-16 relative">
     <h2 class="font-extralight mb-10 md:text-[63px] md:leading-[60px] text-[34px]">Creatives in every field have software collaborators that contribute meaningfully to their work. Writers are stuck with Word or worse.  <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">Verb is here to help.</span>
     </h2>
     <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
@@ -99,7 +108,7 @@ meta:
             <div class="md:w-5/12 w-full ">
                 <div class="bg-white z-20 relative">
                     <video autoplay muted loop class="rounded-md  shadow-home" >
-                        <source autoplay muted loop src="/media/describe-long-huge.mp4" type="video/mp4">
+                        <source autoplay muted loop src="/media/describe-hemingway.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
