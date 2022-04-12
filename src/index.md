@@ -61,8 +61,9 @@ meta:
   </div>
 </div>
 
-<section class="container px-6 mx-auto md:mb-32 md:mt-0 my-16 relative">
-    <h2 class="font-extralight mb-10 md:text-[63px] md:leading-[60px] text-[34px]">Creatives in every field have software collaborators that contribute meaningfully to their work. Writers are stuck with Word or worse.  <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">Verb is here to help.</span>
+<section class="container px-6 mx-auto md:mb-24 md:mt-0 my-16 relative">
+    <h2 class="font-extralight mb-10 md:text-[62px] md:leading-[64px] text-[34px]">
+        Designers have Photoshop. Podcasters have Descript.<span class="hidden md:inline"><br/></span> Film directors have Premiere.<span class="hidden md:inline"><br/></span> Writers are stuck in Word or worse. <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">Verb is here to help.</span>
     </h2>
     <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
 </section>
@@ -72,11 +73,11 @@ meta:
             <div class="md:w-5/12 w-full mb-6 md:mb-0">
                 <h4 class="text-pink uppercase ">Novel Planner</h4>
                 <h2 class="mb-6">The terror of the blank page is real</h2>
-                <p class="md:w-2/3 w-full mb-6">Struggling on that first page? Use Verb’s Novel Planner to scaffold out a plot in ten minutes flat.
+                <p class="md:w-2/3 w-full mb-6">Struggling with that first page? Use Verb’s Novel Planner to scaffold out a plot in ten minutes flat.
                 </p>
                 <ul class="md:w-2/3 w-full ml-6 list-outside marker:text-pink text-lg marker:text-2xl">
-                    <li>Use our custom AI to get automatic plot point suggestions</li>
-                    <li>Lay out chapters and scenes in a drag drop interface.</li>
+                    <li>Play with the infinite ideas & possibilities suggested by Verb to get to your story faster</li>
+                    <!-- <li>Lay out chapters and scenes in a drag drop interface.</li> -->
                 </ul>
             </div>
             <div class="md:w-7/12 w-full ">
@@ -127,10 +128,9 @@ meta:
             <div class="md:w-5/12 w-full md:mb-0 mb-6">
                 <h4 class="text-teal uppercase ">Meaningful, real-time feedback</h4>
                 <h2 class="mb-6">Is your writing connecting? Is your work working?</h2>
-                <p class="md:w-2/3 w-full mb-6">Verb has publishing-industry feedback built-in. It will score your novel from 1-100 based on how likely it is to be published.</p>
+                <p class="md:w-2/3 w-full mb-6">Verb gives you industry-honed feedback on your writing. Stop asking friends, Verb has read more and knows more.</p>
                 <ul class="md:w-2/3 w-full ml-6 list-outside marker:text-teal text-lg marker:text-2xl">
-                    <li>Scored across a variety of metrics</li>
-                    <li>Track your progress as you write and edit, never backslide again</li>
+                    <li>Track your progress as you write and edit, never backslide again.</li>
                 </ul>
             </div>
             <div class="md:w-5/12 w-full ">
