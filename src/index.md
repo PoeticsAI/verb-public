@@ -63,9 +63,9 @@ meta:
 
 <section class="container px-6 mx-auto md:mb-24 md:mt-0 my-16 relative">
     <h2 class="font-extralight mb-10 md:text-[62px] md:leading-[64px] text-[34px]">
-        Designers have Photoshop. Podcasters have Descript.<span class="hidden md:inline"><br/></span> Film directors have Premiere.<span class="hidden md:inline"><br/></span> Writers are stuck in Word or worse. <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">Verb is here to help.</span>
+        Designers have Photoshop. <span class="hidden md:inline"><br/></span>Podcasters have Descript. <span class="hidden md:inline"><br/></span>Film directors have Premiere.<span class="hidden md:inline"><br/></span> Writers are stuck in Word or worse. <span class="hidden md:inline"><br/></span><span class="underline decoration-orange decoration-5 underline-offset-[4px]">Verb is here to help.</span>
     </h2>
-    <a href="{{ '/about/' | url }}" class="btn btn-big btn-outline">Our thinking</a>
+    <a href="{{ '/about/' | url }}" class="btn btn-big btn-orange">More on our thinking</a>
 </section>
 <section class="container px-6 mx-auto md:my-32 my-16 relative">
     <div class="">
@@ -165,7 +165,7 @@ meta:
 
 <section class="container px-6 mx-auto md:my-32 my-16 relative">
     <h2 class="font-extralight mb-10">
-        There’s even more. Verb is a writing app first of all. So expect a <span class="underline decoration-greenNeon decoration-5 underline-offset-[4px]">beautiful writing experience,</span> paired with nutso technology
+        There’s even more. Verb is a writing app first of all. So expect a <span class="underline decoration-reddish decoration-[6px] underline-offset-[4px]">beautiful writing experience,</span> paired with nutso technology
     </h2>
     <div class="md:flex gap-4 md:w-3/5 text-xl">
         <ul class="list-disc  marker:text-2xl marker:text-reddish ml-6 md:w-3/5">

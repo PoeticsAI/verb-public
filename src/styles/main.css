@@ -50,6 +50,10 @@ ul {
   text-black transition-all hover:bg-white md:px-5;
 }
 
+.btn-orange {
+  @apply border-orange bg-orange;
+}
+
 .btn-big {
   @apply px-5 py-2 pb-[10px] text-sm md:py-3 md:px-10 md:pb-4 md:text-base;
 }
