@@ -53,6 +53,14 @@ ul {
 .btn-orange {
   @apply border-orange bg-orange;
 }
+.btn-pink {
+  @apply border-pink bg-pink text-white;
+ 
+}
+
+.btn-pink:hover {
+  @apply bg-pink bg-opacity-70;
+}
 
 .btn-big {
   @apply px-5 py-2 pb-[10px] text-sm md:py-3 md:px-10 md:pb-4 md:text-base;
