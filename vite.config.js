@@ -12,7 +12,7 @@ export default defineConfig({
         404: resolve(__dirname, '_site', '404.html'),
         main: resolve(__dirname, '_site', 'index.html'),
         form: resolve(__dirname, '_site', 'form', 'index.html'),
-        prizeform: resolve(__dirname, '_site', 'prizeform', 'index.html'),
+
         thanks: resolve(__dirname, '_site', 'thanks', 'index.html'),
         prize: resolve(__dirname, '_site', 'prize', 'index.html'),
         about: resolve(__dirname, '_site', 'about', 'index.html'),

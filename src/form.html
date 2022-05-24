@@ -10,7 +10,8 @@ meta:
   <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" class="md:w-1/2 w-full mx-auto " >
     <div class="mb-8 md:mb-16">
       <h1>Join our beta today.</h1>
-      <p>We are inviting a cohort of writers to help us perfect integrating AI into an author's workflow. Join us. We will get back to you in 24 hours.</p>
+      <p class="mb-4">We are inviting a cohort of writers to help us perfect integrating AI into an author's workflow. Join us. We will get back to you in 24 hours.</p>
+      <p>If you want to enter the Verb Short Fiction Prize, fill in this form like normal, you will be automatically entered into the prize.</p>
     </div>
     <div class="flex gap-4 mb-4 w-full">
       <div class="input w-1/2">
@@ -47,17 +48,19 @@ meta:
       ></textarea>
       <label for="tools">What other writing tools do you use?</label>
     </div>
-    <div class="input mb-4">
-      <textarea
-        id="why"
-        name="Why"
-        placeholder="Why"
-        required=""
-        class="w-full"
-      ></textarea>
-      <label for="why">Why do you want to try Verb?</label>
+    
+    
+    <div class="input mb-8">
+      <h4 class="mb-2">Verb Short Fiction Prize</h4>
+      <span class="text-base mb-4 ">Announcing our first fiction prize with £500 going to the winner. Deadline midnight July 4th. Entry is free. By signing up for the beta you are automatically entered in the prize. <a href="{{ '/form/' | url }}" class="underline text-pink">More details here.</a></span>
     </div>
-    <button type="submit" class="btn btn-big btn-long">Submit your answers</button>
+    <div class="md:flex gap-4">
+      <div class="input mb-4">
+        <input type="checkbox" name="Consent" id="Consent" class="h-4 w-4 checked:bg-greenNeon" checked />
+        <label for="Consent" class="relative top-0.5 text-[14px]">Yes, I am ok with the occasional marketing email. I understand my email will not be shared with 3rd parties. </label>
+      </div>
+      <button type="submit" class="btn btn-big btn-long w-full">Submit</button>
+    </div>
     <input
       type="hidden"
       name="_autoresponse"

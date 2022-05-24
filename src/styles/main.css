@@ -46,7 +46,7 @@ ul {
 }
 
 .btn {
-  @apply cursor-pointer rounded-full border border-greenNeon bg-greenNeon py-1 px-3 pb-2 font-serif text-sm tracking-wide
+  @apply cursor-pointer rounded-full border border-greenNeon bg-greenNeon py-1 px-3 pb-1.5 font-serif text-sm tracking-wide
   text-black transition-all hover:bg-white md:px-5;
 }
 
@@ -72,6 +72,12 @@ ul {
 
 .btn-outline {
   @apply border border-greenNeon bg-white transition-all hover:bg-greenNeon;
+}
+.btn-outline.btn-pink {
+  @apply text-black bg-transparent border-pink
+}
+.btn-outline.btn-pink:hover {
+  @apply bg-pink text-white
 }
 
 .input {
