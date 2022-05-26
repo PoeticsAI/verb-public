@@ -74,7 +74,7 @@ ul {
   @apply border border-greenNeon bg-white transition-all hover:bg-greenNeon;
 }
 .btn-outline.btn-pink {
-  @apply text-black bg-transparent border-pink
+  @apply text-black border-pink bg-white
 }
 .btn-outline.btn-pink:hover {
   @apply bg-pink text-white

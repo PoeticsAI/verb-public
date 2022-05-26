@@ -31,7 +31,7 @@ export default defineConfig({
       manifest: {
         name: 'Verb Public',
         short_name: 'Verb Public',
-        description: '11ty, powered by Vite with Tailwind CSS and Alpine.js.',
+        description: 'Verb powered by 11ty, Vite with Tailwind CSS and Alpine.js.',
         scope: '/',
         start_url: '/',
         display: 'standalone',

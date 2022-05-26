@@ -6,13 +6,19 @@ meta:
     'The Verb Prize'
 ---
 
-<div class="container max-w-[1100px] mx-auto my-24">
+<div class="container max-w-[1100px] mx-auto my-24" x-data="{
+  query: new URLSearchParams(location.search).get('utm_source')
+}">
+  <div x-if="query == 'cbc'" class="fixed md:top-3.5 top-[4.5rem] md:left-32 rounded-md left-0 z-[100] bg-white border border-black p-2.5 py-2 md:w-auto w-full text-center ">
+    👋 Welcome CBC writer
+    sign up below!
+  </div>
 
   <section class="mb-24">
     <h4 class="text-pink uppercase mb-4">Announcing the Verb</h4>
     <h1 class="md:text-[103px] text-[60px]">Short Fiction Prize</h1>
     <div class="md:w-1/2">
-      <p class="mb-8">Sign up to our beta, use Verb to write a piece of short fiction between 5000-7,500 words and be eligible for cash prizes and a permanent Verb discount code.</p>
+      <p class="mb-8">Sign up to our beta, use Verb to write a piece of short fiction between 5000-7,500 words and be eligible for cash prizes and a lifetime Verb discount code.</p>
     </div>
     <a href="{{ '/form/' | url }}" class="btn btn-big btn-pink">Sign up for the beta</a>  <div class="md:inline block mt-4 pl-0 md:pl-4 text-pink">Deadline midnight 4th July, 2022</div>
   </section>
