@@ -8,54 +8,51 @@ meta:
 
 <div class="container mx-auto my-24">
   <form action="https://formsubmit.co/e580d484c1b6fc937da48f7792dc6791" method="POST" class="md:w-1/2 w-full mx-auto " >
-    <div class="mb-8 md:mb-16">
+    <div class="mb-8 md:mb-10">
       <h1>Join our beta today.</h1>
       <p class="mb-4">We are inviting a cohort of writers to help us perfect integrating AI into an author's workflow. Join us. We will get back to you in 24 hours.</p>
       <p>If you want to enter the Verb Short Fiction Prize, fill in this form like normal, you will be automatically entered into the prize.</p>
+      <p class="text-gray-500 mt-4"><span class="text-pink">*</span> = required.</p>
     </div>
     <div class="flex gap-4 mb-4 w-full">
       <div class="input w-1/2">
-        <input type="text" name="FirstName" id="fname" placeholder="First Name" class="w-full" />
-        <label for="fname">First Name</label>
+        <input type="text" name="FirstName" id="fname" placeholder="First Name" class="w-full" required />
+        <label for="fname">First Name <span class="text-pink">*</span></label>
       </div>
       <div class="input w-1/2">
-        <input type="text" name="LastName" id="lname" placeholder="Last Name" class="w-full" />
-        <label for="lname">Last Name</label>
+        <input type="text" name="LastName" id="lname" placeholder="Last Name" class="w-full" required />
+        <label for="lname">Last Name <span class="text-pink">*</span></label>
       </div>
     </div>
     <div class="input mb-4">
-      <input type="email" id="email" name="Email" placeholder="Email" required="" class="w-full"
-      />
-      <label for="email">Email</label>
+      <input type="email" id="email" name="Email" placeholder="Email" class="w-full" required />
+      <label for="email">Email <span class="text-pink">*</span></label>
     </div>
     <div class="input mb-4">
-      <textarea
+      <input type="text"
         id="what"
         name="What"
         placeholder="What"
-        required=""
         class="w-full"
-      ></textarea>
+      />
       <label for="what">What are you writing?</label>
     </div>
     <div class="input mb-4">
-      <textarea
+      <input type="text"
         id="tools"
         name="Tools"
         placeholder="Tools"
-        required=""
         class="w-full"
-      ></textarea>
+      />
       <label for="tools">What other writing tools do you use?</label>
     </div>
     <div class="input mb-4">
-      <textarea
+      <input type="text"
         id="Where"
         name="Where"
         placeholder="Where"
-        required=""
         class="w-full"
-      ></textarea>
+      />
       <label for="Where">How did you learn about Verb?</label>
     </div>
     
