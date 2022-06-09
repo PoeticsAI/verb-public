@@ -35,7 +35,7 @@ meta:
                     <p class="md:mt-6 mt-4 md:w-9/12">Verb is a machine-led writing partner. Like the best editors it helps you plan, write and critique your work.  Use it to get your vision into words – with more speed, less pain. </p>
                     <div class="md:mt-12 mt-8">
                         <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> 
-                        <a href="{{ '/  /' | url }}" class="btn btn-big btn-outline btn-pink relative">
+                        <a href="{{ '/prize/' | url }}" class="btn btn-big btn-outline btn-pink relative">
                             Short Fiction Prize
                             <div class="absolute -right-[20px] top-[6px] ">
                                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
