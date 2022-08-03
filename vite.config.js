@@ -14,7 +14,7 @@ export default defineConfig({
         form: resolve(__dirname, '_site', 'form', 'index.html'),
 
         thanks: resolve(__dirname, '_site', 'thanks', 'index.html'),
-        prize: resolve(__dirname, '_site', 'prize', 'index.html'),
+        // prize: resolve(__dirname, '_site', 'prize', 'index.html'),
         about: resolve(__dirname, '_site', 'about', 'index.html'),
       },
     },
