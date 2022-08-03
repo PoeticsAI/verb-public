@@ -35,17 +35,6 @@ meta:
                     <p class="md:mt-6 mt-4 md:w-9/12">Verb is a machine-led writing partner. Like the best editors it helps you plan, write and critique your work.  Use it to get your vision into words – with more speed, less pain. </p>
                     <div class="md:mt-12 mt-8">
                         <a href="{{ '/form/' | url }}" class="btn btn-big ">Join our free beta</a> 
-                        <a href="{{ '/prize/' | url }}" class="btn btn-big btn-outline btn-pink relative">
-                            Short Fiction Prize
-                            <div class="absolute -right-[20px] top-[6px] ">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.5 22.5C17.5751 22.5 22.5 17.5751 22.5 11.5C22.5 5.42487 17.5751 0.5 11.5 0.5C5.42487 0.5 0.5 5.42487 0.5 11.5C0.5 17.5751 5.42487 22.5 11.5 22.5Z" fill="#F70FE8" stroke="white"/>
-                                    <path d="M4.60028 10.288H4.51228V14H3.48828V8.41602H4.92828L6.20028 12.128H6.28828V8.41602H7.31228V14H5.87228L4.60028 10.288Z" fill="white"/>
-                                    <path d="M8.43716 14V8.41602H12.0052V9.40002H9.63716V10.68H11.9252V11.664H9.63716V13.016H12.0052V14H8.43716Z" fill="white"/>
-                                    <path d="M12.53 8.41602H13.738L14.266 11.096L14.562 12.648H14.586L14.938 11.096L15.554 8.41602H16.882L17.506 11.096L17.85 12.648H17.874L18.17 11.096L18.706 8.41602H19.858L18.562 14H17.178L16.474 10.976L16.202 9.75202H16.178L15.898 10.976L15.194 14H13.802L12.53 8.41602Z" fill="white"/>
-                                </svg>  
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
